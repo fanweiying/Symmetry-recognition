@@ -1,0 +1,842 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Consolas'; font-size:10pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Type &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IPython 6.4.0 -- An enhanced Interactive Python.</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">1</span><span style=" color:#000080;">]:</span> runfile('D:/deep_learning/symmetry detection/2D_symmetry_calssfication/2D_symmetry_calssfication/对称分类（四分类）.py', wdir='D:/deep_learning/symmetry detection/2D_symmetry_calssfication/2D_symmetry_calssfication')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">标签：</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">['10_order', '12_order', '14_order', '16_order', '18_order', '20_order', '2_order', '3_order', '4_order', '5_order', '6_order', '7_order', '8_order', '9_order']</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">标签对应的索引：</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">{'10_order': 0, '12_order': 1, '14_order': 2, '16_order': 3, '18_order': 4, '20_order': 5, '2_order': 6, '3_order': 7, '4_order': 8, '5_order': 9, '6_order': 10, '7_order': 11, '8_order': 12, '9_order': 13}</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\4_order\4_order_1356.png  ---&gt;   8</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\4_order\4_order_2192.png  ---&gt;   8</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\8_order\8_order_151.png  ---&gt;   12</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\7_order\7_order_386.jpg  ---&gt;   11</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\16_order\16_order_4436.png  ---&gt;   3</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\7_order\7_order_1291.png  ---&gt;   11</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\2_order\2_order_568.png  ---&gt;   6</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\3_order\3_order_1672.png  ---&gt;   7</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\20_order\20_order_618.png  ---&gt;   5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\train\5_order\5_order_1594.png  ---&gt;   9</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">标签：</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">['10_order', '12_order', '14_order', '16_order', '18_order', '20_order', '2_order', '3_order', '4_order', '5_order', '6_order', '7_order', '8_order', '9_order']</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">标签对应的索引：</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">{'10_order': 0, '12_order': 1, '14_order': 2, '16_order': 3, '18_order': 4, '20_order': 5, '2_order': 6, '3_order': 7, '4_order': 8, '5_order': 9, '6_order': 10, '7_order': 11, '8_order': 12, '9_order': 13}</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\20_order\20_order_634.png  ---&gt;   5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\16_order\16_order_5230.png  ---&gt;   3</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\6_order\6_order_2072.png  ---&gt;   10</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\5_order\5_order_2008.png  ---&gt;   9</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\12_order\12_order_212.png  ---&gt;   1</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\8_order\8_order_1734 (2).png  ---&gt;   12</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\8_order\8_order_2943.png  ---&gt;   12</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\7_order\7_order_1434.png  ---&gt;   11</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\10_order\10_order_1832.png  ---&gt;   0</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\dataset4\validate\14_order\14_order_2014.png  ---&gt;   2</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;PrefetchDataset shapes: ((32, 200, 200, 1), (32,)), types: (tf.float32, tf.int32)&gt;</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;PrefetchDataset shapes: ((32, 200, 200, 1), (32,)), types: (tf.float32, tf.int32)&gt;</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">num_train= 10800</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">num_valid= 3600</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">optimizers：RMSprop</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">epochs= 45</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Train for 337 steps, validate for 112 steps</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 1/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00001: val_acc improved from -inf to 0.80748, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-001.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 323s - loss: 1.6766 - acc: 0.4374 - val_loss: 0.6159 - val_acc: 0.8075</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 2/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00002: val_acc improved from 0.80748 to 0.85435, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-002.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 372s - loss: 0.8573 - acc: 0.7032 - val_loss: 0.4359 - val_acc: 0.8544</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 3/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00003: val_acc improved from 0.85435 to 0.87584, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-003.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 404s - loss: 0.6270 - acc: 0.7897 - val_loss: 0.3774 - val_acc: 0.8758</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 4/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00004: val_acc improved from 0.87584 to 0.89537, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-004.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 415s - loss: 0.5096 - acc: 0.8316 - val_loss: 0.3169 - val_acc: 0.8954</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 5/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00005: val_acc improved from 0.89537 to 0.90458, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-005.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 406s - loss: 0.4347 - acc: 0.8642 - val_loss: 0.2923 - val_acc: 0.9046</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 6/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00006: val_acc did not improve from 0.90458</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 480s - loss: 0.3876 - acc: 0.8798 - val_loss: 0.2984 - val_acc: 0.9018</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 7/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00007: val_acc improved from 0.90458 to 0.91546, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-007.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 413s - loss: 0.3459 - acc: 0.8880 - val_loss: 0.2909 - val_acc: 0.9155</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 8/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00008: val_acc improved from 0.91546 to 0.91574, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-008.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 437s - loss: 0.3100 - acc: 0.8993 - val_loss: 0.3297 - val_acc: 0.9157</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 9/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00009: val_acc did not improve from 0.91574</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 450s - loss: 0.2816 - acc: 0.9122 - val_loss: 0.3318 - val_acc: 0.9152</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 10/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00010: val_acc improved from 0.91574 to 0.92076, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-010.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 445s - loss: 0.2783 - acc: 0.9109 - val_loss: 0.2543 - val_acc: 0.9208</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 11/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00011: val_acc improved from 0.92076 to 0.92299, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-011.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 553s - loss: 0.2561 - acc: 0.9219 - val_loss: 0.2912 - val_acc: 0.9230</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 12/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00012: val_acc did not improve from 0.92299</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 491s - loss: 0.2521 - acc: 0.9212 - val_loss: 0.3710 - val_acc: 0.9208</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 13/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00013: val_acc improved from 0.92299 to 0.92411, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-013.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 529s - loss: 0.2439 - acc: 0.9272 - val_loss: 0.3017 - val_acc: 0.9241</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 14/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00014: val_acc did not improve from 0.92411</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 530s - loss: 0.2348 - acc: 0.9286 - val_loss: 0.3985 - val_acc: 0.9222</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 15/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00015: val_acc did not improve from 0.92411</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 536s - loss: 0.2326 - acc: 0.9304 - val_loss: 0.3334 - val_acc: 0.9188</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 16/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00016: val_acc improved from 0.92411 to 0.93025, saving model to D:\deep_learning\symmetry detection\2D_symmetry_calssfication\2D_symmetry_calssfication\model1\model1-RMSprop(2)-016.h5</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 583s - loss: 0.2239 - acc: 0.9339 - val_loss: 0.2985 - val_acc: 0.9302</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 17/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00017: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 611s - loss: 0.2242 - acc: 0.9352 - val_loss: 0.2876 - val_acc: 0.9113</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 18/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00018: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 626s - loss: 0.2094 - acc: 0.9369 - val_loss: 0.2794 - val_acc: 0.9227</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 19/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00019: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 641s - loss: 0.1969 - acc: 0.9411 - val_loss: 0.3195 - val_acc: 0.9275</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 20/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00020: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 659s - loss: 0.2192 - acc: 0.9379 - val_loss: 0.2981 - val_acc: 0.9255</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 21/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00021: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 675s - loss: 0.2077 - acc: 0.9426 - val_loss: 0.2885 - val_acc: 0.9169</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 22/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00022: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 682s - loss: 0.1931 - acc: 0.9426 - val_loss: 0.3050 - val_acc: 0.9146</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 23/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00023: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 686s - loss: 0.1918 - acc: 0.9432 - val_loss: 0.2868 - val_acc: 0.9194</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 24/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00024: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 701s - loss: 0.2014 - acc: 0.9404 - val_loss: 0.4348 - val_acc: 0.9272</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 25/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00025: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 716s - loss: 0.1907 - acc: 0.9452 - val_loss: 0.3883 - val_acc: 0.9210</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 26/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00026: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 728s - loss: 0.1921 - acc: 0.9444 - val_loss: 0.3153 - val_acc: 0.9230</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 27/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00027: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 750s - loss: 0.2056 - acc: 0.9411 - val_loss: 0.2855 - val_acc: 0.9272</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 28/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00028: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 756s - loss: 0.1919 - acc: 0.9457 - val_loss: 0.2777 - val_acc: 0.9252</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 29/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00029: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 760s - loss: 0.1878 - acc: 0.9480 - val_loss: 0.2857 - val_acc: 0.9252</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 30/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00030: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 770s - loss: 0.1848 - acc: 0.9477 - val_loss: 0.3284 - val_acc: 0.9247</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 31/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00031: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 785s - loss: 0.1816 - acc: 0.9487 - val_loss: 0.2972 - val_acc: 0.9182</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 32/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00032: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 783s - loss: 0.1862 - acc: 0.9459 - val_loss: 0.3297 - val_acc: 0.9255</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 33/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00033: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 793s - loss: 0.2035 - acc: 0.9461 - val_loss: 0.3082 - val_acc: 0.9252</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 34/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00034: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 793s - loss: 0.1903 - acc: 0.9497 - val_loss: 0.3219 - val_acc: 0.9132</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 35/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00035: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 801s - loss: 0.1927 - acc: 0.9467 - val_loss: 0.3870 - val_acc: 0.9266</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 36/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00036: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 821s - loss: 0.1967 - acc: 0.9438 - val_loss: 0.3526 - val_acc: 0.9099</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 37/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00037: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 806s - loss: 0.2091 - acc: 0.9420 - val_loss: 0.2979 - val_acc: 0.9222</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 38/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00038: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 829s - loss: 0.2044 - acc: 0.9439 - val_loss: 0.3222 - val_acc: 0.9219</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 39/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00039: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 838s - loss: 0.2126 - acc: 0.9412 - val_loss: 0.3928 - val_acc: 0.9286</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 40/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00040: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 840s - loss: 0.1956 - acc: 0.9470 - val_loss: 0.4791 - val_acc: 0.9205</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 41/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00041: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 858s - loss: 0.2254 - acc: 0.9411 - val_loss: 0.4431 - val_acc: 0.9241</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 42/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00042: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 848s - loss: 0.2097 - acc: 0.9447 - val_loss: 0.3446 - val_acc: 0.9185</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 43/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00043: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 841s - loss: 0.2137 - acc: 0.9416 - val_loss: 0.3146 - val_acc: 0.9283</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 44/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00044: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 849s - loss: 0.2086 - acc: 0.9430 - val_loss: 0.3275 - val_acc: 0.9233</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 45/45</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 00045: val_acc did not improve from 0.93025</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">337/337 - 848s - loss: 0.2067 - acc: 0.9449 - val_loss: 0.3936 - val_acc: 0.9244</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+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
+" /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;Figure size 432x288 with 0 Axes&gt;</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+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
+iI6ORkhICACgZcuWiI6OLpw3btw4NGnSBOPHj0d8fLwyAXTsCKxfL/8fO7bc
+ZiEAGDwYiIwEmjQpurp44kQ5nYjIWSmWCFJSUuDv7w8A8Pb2xs2bNwEAGRkZ
+SEpKwtixY/H222/jpZdeQk5OTpnlIyMjodPpoNPpkJycbF0Q4eFA06bA6dMW
+LzJ4MJCUBGRkAHXqACdOWLdpIqKqQrFEEBgYiMzMTADAvXv3EBAQAADIycmB
+j48PXF1dERQUhIYNGxYmieIiIiKg1+uh1+sRGBhoXRAuLkBYmOwozs6u0KI+
+PsDo0cCOHfK6AiIiZ6VYIujTpw+OHz8OADh16hR69eqF9PR0+Pv7w8vLC/cf
+3gosMDAQf/jDH5QKA+jTB8jKsqizuLTRo2X3wkcf2T4sIiJHoVgi6Ny5M7y9
+vbF27Vr4+fnBz88Po0aNAgAsX74cc+bMwZYtW/Duu+/Czc1NqTBkJ7GPD1Cs
+j8JS9eoBQ4YAUVGyqYiIyBm5CCGE2kGUR6fTQa/XW7+Cvn2BX38Fzp+v8BjT
+ly8DeXnAI49Yv3kiIjVYWnY695XFBmFhwMWLVjX2N2nCJEBEzk0bieCFF+Rf
+K5qHACAtDejfH9iwwYYxERE5CG0kguBgeUPiH36wavFatYALF4ClS+VgdERE
+zkQbiQCQzUNxccC9exVe1MUFmDQJOHYM2LNHgdiIiFSknUTQpw+Qmwvs2mXV
+4oMHAzVqyH5n3quAiJyJdhJB585AzZpW9xNs2yavScvK4r0KiMi5aCcReHgA
+PXvKRGBFQ/+0abJCURzvVUBEzkA7iQCQ/QTXr8vG/grivQqIyFlpKxH07i3/
+WtE8xHsVEJGz0lYiqF8f0OmsOo3U2L0KXF2BuXNtFBsROYaYGGDePItvcesM
+tJUIAHn20P79QGpqhRYrfa+CgAB587PfflMoTiKyvx9+AHr1AmbMALp100wy
+0F4iCAuTJfhPP1V4UcO9CgoKgORk4OWXgZkzgSNHbB8mEalg5syi/x88kAmh
+9FkiTkh7iUCnAwIDrT6N1MDFBVi5EqhbF/jsMxvFRkTq2bcPOHwYcHcH3Nzk
+Y/dueer5mTNqR6co7SUCV1fZabxzJ5CfX6lV1a4NxMcDn3wirycIDubFZkRV
+Ul6evAFJ48aytWDuXGDvXmDrVjm+zB//CHz8sUwW77/vdE1G7moHoIqwMDmC
+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
+" /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">训练花费的时间：8.187760h!</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">112/112 [==============================] - 57s 505ms/step - loss: 0.3940 - acc: 0.9241</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">预测1张图片花费的时间：0.018737s!</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">2</span><span style=" color:#000080;">]:</span> </p></body></html>

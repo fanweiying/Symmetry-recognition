@@ -1,0 +1,24 @@
+SGD优化器，rate=0.001，epoch=15，像素200x200，batchsize=32
+num_train= 10800
+num_valid= 3600
+过程文件：
+Epoch 1——loss: 2.6275 - acc: 0.0956 - val_loss: 2.6065 - val_acc: 0.1109
+Epoch 2——loss: 2.6151 - acc: 0.1045 - val_loss: 2.6014 - val_acc: 0.1104
+Epoch 3——loss: 2.6081 - acc: 0.1124 - val_loss: 2.5929 - val_acc: 0.1109
+Epoch 4——loss: 2.6065 - acc: 0.1123 - val_loss: 2.5909 - val_acc: 0.1118
+Epoch 5——loss: 2.5977 - acc: 0.1174 - val_loss: 2.5820 - val_acc: 0.1106
+Epoch 6——loss: 2.5908 - acc: 0.1199 - val_loss: 2.5689 - val_acc: 0.1249
+Epoch 7——loss: 2.5767 - acc: 0.1283 - val_loss: 2.5476 - val_acc: 0.1218
+Epoch 8——loss: 2.5594 - acc: 0.1347 - val_loss: 2.5233 - val_acc: 0.1916
+Epoch 9——loss: 2.5292 - acc: 0.1501 - val_loss: 2.4759 - val_acc: 0.2101
+Epoch10——loss: 2.4998 - acc: 0.1651 - val_loss: 2.4317 - val_acc: 0.2933
+Epoch11——loss: 2.4617 - acc: 0.1837 - val_loss: 2.3605 - val_acc: 0.3003
+Epoch12——loss: 2.4135 - acc: 0.2007 - val_loss: 2.2962 - val_acc: 0.3720
+Epoch13——loss: 2.3576 - acc: 0.2240 - val_loss: 2.1775 - val_acc: 0.3745
+Epoch14——loss: 2.2874 - acc: 0.2500 - val_loss: 2.0636 - val_acc: 0.4571
+Epoch15——loss: 2.1877 - acc: 0.2820 - val_loss: 1.9431 - val_acc: 0.4655
+训练花费的时间：1.929040h!
+预测1张图片花费的时间：0.014325s!
+
+标签对应的索引：
+{'10_order': 0, '12_order': 1, '14_order': 2, '16_order': 3, '18_order': 4, '20_order': 5, '2_order': 6, '3_order': 7, '4_order': 8, '5_order': 9, '6_order': 10, '7_order': 11, '8_order': 12, '9_order': 13}

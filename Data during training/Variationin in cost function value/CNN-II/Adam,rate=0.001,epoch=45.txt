@@ -1,0 +1,56 @@
+adam优化器，rate=0.001，epoch=45，像素200x200。
+num_train= 10800
+num_valid= 3600
+过程文件：
+epoch 1——loss: 1.7513 - acc: 0.3948 - val_loss: 0.6856 - val_acc: 0.7628
+epoch 2——loss: 0.9815 - acc: 0.6415 - val_loss: 0.5302 - val_acc: 0.8175
+epoch 3——loss: 0.7915 - acc: 0.7129 - val_loss: 0.4530 - val_acc: 0.8496
+epoch 4——loss: 0.6746 - acc: 0.7574 - val_loss: 0.3805 - val_acc: 0.8770
+epoch 5——loss: 0.5894 - acc: 0.7917 - val_loss: 0.3426 - val_acc: 0.8867
+epoch 6——loss: 0.5416 - acc: 0.8096 - val_loss: 0.3531 - val_acc: 0.8842
+epoch 7——loss: 0.4848 - acc: 0.8267 - val_loss: 0.3075 - val_acc: 0.9043
+epoch 8——loss: 0.4466 - acc: 0.8431 - val_loss: 0.3201 - val_acc: 0.8996
+epoch 9——loss: 0.4059 - acc: 0.8616 - val_loss: 0.2699 - val_acc: 0.9113
+epoch10——loss: 0.3959 - acc: 0.8613 - val_loss: 0.2778 - val_acc: 0.9104
+epoch11——loss: 0.3558 - acc: 0.8731 - val_loss: 0.2822 - val_acc: 0.9104
+epoch12——loss: 0.3396 - acc: 0.8801 - val_loss: 0.2651 - val_acc: 0.9205
+epoch13——loss: 0.3106 - acc: 0.8894 - val_loss: 0.2682 - val_acc: 0.9174
+epoch14——loss: 0.2995 - acc: 0.8943 - val_loss: 0.2578 - val_acc: 0.9230
+epoch15——loss: 0.2772 - acc: 0.9026 - val_loss: 0.2532 - val_acc: 0.9230
+epoch16——loss: 0.2577 - acc: 0.9082 - val_loss: 0.2576 - val_acc: 0.9252
+epoch17——loss: 0.2579 - acc: 0.9077 - val_loss: 0.2630 - val_acc: 0.9258
+epoch18—— loss: 0.2395 - acc: 0.9157 - val_loss: 0.2592 - val_acc: 0.9283
+epoch19——loss: 0.2458 - acc: 0.9142 - val_loss: 0.2631 - val_acc: 0.9261
+epoch20——loss: 0.2111 - acc: 0.9262 - val_loss: 0.2690 - val_acc: 0.9261
+epoch21——loss: 0.2177 - acc: 0.9240 - val_loss: 0.2658 - val_acc: 0.9342
+epoch22——loss: 0.2102 - acc: 0.9243 - val_loss: 0.2679 - val_acc: 0.9272
+epoch23——loss: 0.2062 - acc: 0.9260 - val_loss: 0.2856 - val_acc: 0.9219
+epoch24——loss: 0.2028 - acc: 0.9251 - val_loss: 0.2766 - val_acc: 0.9344
+epoch25——loss: 0.1843 - acc: 0.9336 - val_loss: 0.3037 - val_acc: 0.9342
+epoch26—— loss: 0.1828 - acc: 0.9344 - val_loss: 0.2889 - val_acc: 0.9350
+epoch27——loss: 0.1809 - acc: 0.9374 - val_loss: 0.3000 - val_acc: 0.9316
+epoch28——loss: 0.1816 - acc: 0.9338 - val_loss: 0.2738 - val_acc: 0.9314
+epoch29——loss: 0.1834 - acc: 0.9337 - val_loss: 0.2826 - val_acc: 0.9308
+epoch30——loss: 0.1645 - acc: 0.9409 - val_loss: 0.3178 - val_acc: 0.9305
+epoch31——loss: 0.1654 - acc: 0.9419 - val_loss: 0.3096 - val_acc: 0.9314
+epoch32——loss: 0.1599 - acc: 0.9436 - val_loss: 0.3382 - val_acc: 0.9319
+epoch33——loss: 0.1511 - acc: 0.9445 - val_loss: 0.3383 - val_acc: 0.9322
+epoch34——loss: 0.1742 - acc: 0.9410 - val_loss: 0.3282 - val_acc: 0.9403
+epoch35——loss: 0.1491 - acc: 0.9468 - val_loss: 0.3513 - val_acc: 0.9342
+epoch36——loss: 0.1336 - acc: 0.9512 - val_loss: 0.3585 - val_acc: 0.9333
+epoch37——loss: 0.1367 - acc: 0.9520 - val_loss: 0.3155 - val_acc: 0.9355
+epoch38——loss: 0.1387 - acc: 0.9522 - val_loss: 0.3528 - val_acc: 0.9364
+epoch39——loss: 0.1452 - acc: 0.9489 - val_loss: 0.2935 - val_acc: 0.9316
+epoch40——loss: 0.1655 - acc: 0.9453 - val_loss: 0.3203 - val_acc: 0.9355
+epoch41——loss: 0.1291 - acc: 0.9554 - val_loss: 0.3480 - val_acc: 0.9367
+epoch42——loss: 0.1273 - acc: 0.9577 - val_loss: 0.3183 - val_acc: 0.9381
+epoch43——loss: 0.1248 - acc: 0.9571 - val_loss: 0.3282 - val_acc: 0.9369
+epoch44——loss: 0.1197 - acc: 0.9586 - val_loss: 0.3280 - val_acc: 0.9375
+epoch45——loss: 0.1264 - acc: 0.9544 - val_loss: 0.3426 - val_acc: 0.9353
+
+
+
+
+训练花费的时间：7.598919h!
+
+

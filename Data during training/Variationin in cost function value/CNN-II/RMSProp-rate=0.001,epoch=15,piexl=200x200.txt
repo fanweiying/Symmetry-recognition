@@ -1,0 +1,29 @@
+RMSprop优化器，rate=0.001，epoch=15，像素200x200，batchsize-32。
+num_train= 10800
+num_valid= 3600
+过程文件：
+Epoch 1——loss: 1.7866 - acc: 0.3884 - val_loss: 0.6926 - val_acc: 0.7662
+Epoch 2——loss: 0.9484 - acc: 0.6621 - val_loss: 0.5199 - val_acc: 0.8265
+Epoch 3——loss: 0.7214 - acc: 0.7468 - val_loss: 0.4110 - val_acc: 0.8544
+Epoch 4——loss: 0.5840 - acc: 0.8004 - val_loss: 0.3607 - val_acc: 0.8803
+Epoch 5——loss: 0.5022 - acc: 0.8345 - val_loss: 0.3332 - val_acc: 0.8862
+Epoch 6——loss: 0.4360 - acc: 0.8631 - val_loss: 0.3046 - val_acc: 0.8962
+Epoch 7——loss: 0.3907 - acc: 0.8751 - val_loss: 0.3077 - val_acc: 0.9029
+Epoch 8——loss: 0.3386 - acc: 0.8930 - val_loss: 0.2784 - val_acc: 0.9113
+Epoch 9——loss: 0.3189 - acc: 0.8979 - val_loss: 0.2712 - val_acc: 0.9152
+Epoch10——loss: 0.2969 - acc: 0.9054 - val_loss: 0.2785 - val_acc: 0.9210
+Epoch11——loss: 0.2735 - acc: 0.9131 - val_loss: 0.2723 - val_acc: 0.9174
+Epoch12——loss: 0.2603 - acc: 0.9152 - val_loss: 0.2963 - val_acc: 0.9174
+Epoch13——loss: 0.2505 - acc: 0.9210 - val_loss: 0.2765 - val_acc: 0.9235
+Epoch14——loss: 0.2300 - acc: 0.9239 - val_loss: 0.2778 - val_acc: 0.9180
+Epoch15——loss: 0.2268 - acc: 0.9291 - val_loss: 0.2709 - val_acc: 0.9289
+训练花费的时间：1.792370h!
+预测1张图片花费的时间：0.014273s!
+
+标签对应的索引：
+{'10_order': 0, '12_order': 1, '14_order': 2, '16_order': 3, '18_order': 4, '20_order': 5, '2_order': 6, '3_order': 7, '4_order': 8, '5_order': 9, '6_order': 10, '7_order': 11, '8_order': 12, '9_order': 13}
+测试集的图片数目：
+3600
+Test loss: 0.3801673771187033
+Test accuracy: 0.9191667
+

@@ -1,0 +1,37 @@
+sgd，rate=0.001，epoch=30，像素200x200。
+num_train= 4080
+num_valid= 1360
+过程：
+epoch 1——loss: 1.3952 - acc: 0.2441 - val_loss: 1.3844 - val_acc: 0.2662
+epoch 2——loss: 1.3877 - acc: 0.2556 - val_loss: 1.3831 - val_acc: 0.3132
+epoch 3——loss: 1.3859 - acc: 0.2618 - val_loss: 1.3825 - val_acc: 0.2507
+epoch 4——loss: 1.3854 - acc: 0.2610 - val_loss: 1.3818 - val_acc: 0.3287
+epoch 5——loss: 1.3840 - acc: 0.2630 - val_loss: 1.3817 - val_acc: 0.2875
+epoch 6——loss: 1.3827 - acc: 0.2701 - val_loss: 1.3806 - val_acc: 0.2919
+epoch 7——loss: 1.3820 - acc: 0.2730 - val_loss: 1.3795 - val_acc: 0.3081
+epoch 8——loss: 1.3805 - acc: 0.2824 - val_loss: 1.3781 - val_acc: 0.3713
+epoch 9——loss: 1.3819 - acc: 0.2718 - val_loss: 1.3776 - val_acc: 0.3426
+epoch10——loss: 1.3791 - acc: 0.2838 - val_loss: 1.3769 - val_acc: 0.3757
+epoch11——loss: 1.3783 - acc: 0.2941 - val_loss: 1.3749 - val_acc: 0.3522
+epoch12——loss: 1.3787 - acc: 0.2958 - val_loss: 1.3745 - val_acc: 0.4081
+epoch13——loss: 1.3771 - acc: 0.2919 - val_loss: 1.3729 - val_acc: 0.3809
+epoch14——loss: 1.3755 - acc: 0.2914 - val_loss: 1.3707 - val_acc: 0.3147
+epoch15——loss: 1.3737 - acc: 0.2995 - val_loss: 1.3684 - val_acc: 0.3279
+epoch16——loss: 1.3711 - acc: 0.3100 - val_loss: 1.3663 - val_acc: 0.4103
+epoch17——loss: 1.3718 - acc: 0.3020 - val_loss: 1.3647 - val_acc: 0.3382
+epoch18——loss: 1.3711 - acc: 0.3066 - val_loss: 1.3633 - val_acc: 0.3625
+epoch19——loss: 1.3686 - acc: 0.3039 - val_loss: 1.3601 - val_acc: 0.4118
+epoch20——loss: 1.3654 - acc: 0.3150 - val_loss: 1.3574 - val_acc: 0.4346
+epoch21——loss: 1.3623 - acc: 0.3223 - val_loss: 1.3543 - val_acc: 0.3912
+epoch22——loss: 1.3619 - acc: 0.3181 - val_loss: 1.3524 - val_acc: 0.4228
+epoch23——loss: 1.3581 - acc: 0.3309 - val_loss: 1.3468 - val_acc: 0.4301
+epoch24——loss: 1.3543 - acc: 0.3375 - val_loss: 1.3498 - val_acc: 0.3816
+epoch25——loss: 1.3511 - acc: 0.3350 - val_loss: 1.3364 - val_acc: 0.4250
+epoch26——loss: 1.3490 - acc: 0.3471 - val_loss: 1.3330 - val_acc: 0.4316
+epoch27——loss: 1.3421 - acc: 0.3485 - val_loss: 1.3233 - val_acc: 0.4412
+epoch28——loss: 1.3394 - acc: 0.3490 - val_loss: 1.3181 - val_acc: 0.4287
+epoch29——loss: 1.3344 - acc: 0.3544 - val_loss: 1.3123 - val_acc: 0.3897
+epoch30——loss: 1.3271 - acc: 0.3586 - val_loss: 1.3006 - val_acc: 0.4279
+
+训练花费的时间：0.776478h!
+预测1张图片花费的时间：0.010394s!

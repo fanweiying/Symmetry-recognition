@@ -1,0 +1,39 @@
+RMSProp优化器，rate=0.001，epoch=30，像素200x200。
+batchsize=34
+num_train= 4080
+num_valid= 1360
+过程文件
+Epoch 1——loss: 1.3187 - acc: 0.3618 - val_loss: 1.0348 - val_acc: 0.5390
+Epoch 2——loss: 1.0611 - acc: 0.5189 - val_loss: 0.8444 - val_acc: 0.6662
+Epoch 3——loss: 0.8972 - acc: 0.6159 - val_loss: 0.7028 - val_acc: 0.7169
+Epoch 4——loss: 0.8135 - acc: 0.6640 - val_loss: 0.6514 - val_acc: 0.7382
+Epoch 5——loss: 0.7062 - acc: 0.7130 - val_loss: 0.5509 - val_acc: 0.7662
+Epoch 6——loss: 0.6196 - acc: 0.7650 - val_loss: 0.5074 - val_acc: 0.7949
+Epoch 7——loss: 0.5418 - acc: 0.7880 - val_loss: 0.4544 - val_acc: 0.8125
+Epoch 8——loss: 0.4538 - acc: 0.8277 - val_loss: 0.5198 - val_acc: 0.8206
+Epoch 9——loss: 0.4080 - acc: 0.8512 - val_loss: 0.3926 - val_acc: 0.8500
+Epoch10——loss: 0.3466 - acc: 0.8775 - val_loss: 0.3875 - val_acc: 0.8515
+Epoch11——loss: 0.3299 - acc: 0.8821 - val_loss: 0.3443 - val_acc: 0.8787
+Epoch12——loss: 0.2881 - acc: 0.8990 - val_loss: 0.3728 - val_acc: 0.8699
+Epoch13——loss: 0.2449 - acc: 0.9162 - val_loss: 0.3686 - val_acc: 0.8706
+Epoch14——loss: 0.2157 - acc: 0.9233 - val_loss: 0.4615 - val_acc: 0.8632
+Epoch15——loss: 0.1907 - acc: 0.9355 - val_loss: 0.4251 - val_acc: 0.8912
+Epoch16——loss: 0.1819 - acc: 0.9395 - val_loss: 0.5492 - val_acc: 0.8412
+Epoch17——loss: 0.1648 - acc: 0.9446 - val_loss: 0.5772 - val_acc: 0.8169
+Epoch18——loss: 0.1495 - acc: 0.9480 - val_loss: 0.3556 - val_acc: 0.8772
+Epoch19——loss: 0.1577 - acc: 0.9502 - val_loss: 0.4422 - val_acc: 0.8757
+Epoch20——loss: 0.1412 - acc: 0.9537 - val_loss: 0.4948 - val_acc: 0.8779
+Epoch21——loss: 0.1266 - acc: 0.9566 - val_loss: 0.6418 - val_acc: 0.8699
+Epoch22——loss: 0.1348 - acc: 0.9547 - val_loss: 0.4636 - val_acc: 0.8882
+Epoch23——loss: 0.1308 - acc: 0.9630 - val_loss: 0.5464 - val_acc: 0.8868
+Epoch24——loss: 0.1207 - acc: 0.9613 - val_loss: 0.4878 - val_acc: 0.8846
+Epoch25——loss: 0.0993 - acc: 0.9694 - val_loss: 0.6699 - val_acc: 0.8706
+Epoch26——loss: 0.1184 - acc: 0.9627 - val_loss: 0.4974 - val_acc: 0.8669
+Epoch27——loss: 0.1304 - acc: 0.9603 - val_loss: 0.5374 - val_acc: 0.8691
+Epoch28——loss: 0.1086 - acc: 0.9659 - val_loss: 0.5891 - val_acc: 0.8772
+Epoch29——loss: 0.1202 - acc: 0.9583 - val_loss: 0.6661 - val_acc: 0.8757
+Epoch30——loss: 0.1030 - acc: 0.9664 - val_loss: 0.5624 - val_acc: 0.8757
+
+
+训练花费的时间：0.822098h!
+预测1张图片花费的时间：0.010902s!

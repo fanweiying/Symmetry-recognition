@@ -1,0 +1,22 @@
+adam优化器，rate=0.001，epoch=15，像素200x200。
+num_train= 10800
+num_valid= 3600
+过程文件：
+epoch 1——loss: 1.8353 - acc: 0.3591 - val_loss: 0.6689 - val_acc: 0.7539
+epoch 2——loss: 1.0062 - acc: 0.6311 - val_loss: 0.5197 - val_acc: 0.8206
+epoch 3——loss: 0.8034 - acc: 0.7073 - val_loss: 0.4307 - val_acc: 0.8546
+epoch 4——loss: 0.6861 - acc: 0.7518 - val_loss: 0.3965 - val_acc: 0.8797
+epoch 5——loss: 0.6022 - acc: 0.7851 - val_loss: 0.3306 - val_acc: 0.8954
+epoch 6——loss: 0.5358 - acc: 0.8164 - val_loss: 0.2972 - val_acc: 0.9015
+epoch 7——loss: 0.4812 - acc: 0.8310 - val_loss: 0.2802 - val_acc: 0.9049
+epoch 8——loss: 0.4376 - acc: 0.8429 - val_loss: 0.2747 - val_acc: 0.9110
+epoch 9——loss: 0.4046 - acc: 0.8595 - val_loss: 0.2620 - val_acc: 0.9155
+epoch10——loss: 0.3890 - acc: 0.8670 - val_loss: 0.2534 - val_acc: 0.9121
+epoch11——loss: 0.3688 - acc: 0.8718 - val_loss: 0.2398 - val_acc: 0.9222
+epoch12——loss: 0.3422 - acc: 0.8782 - val_loss: 0.2357 - val_acc: 0.9227
+epoch13——loss: 0.3199 - acc: 0.8858 - val_loss: 0.2328 - val_acc: 0.9247
+epoch14——loss: 0.3124 - acc: 0.8864 - val_loss: 0.2508 - val_acc: 0.9230
+epoch15——loss: 0.3012 - acc: 0.8920 - val_loss: 0.2568 - val_acc: 0.9238
+
+训练花费的时间：1.737475h!
+预测1张图片花费的时间：0.014626s!

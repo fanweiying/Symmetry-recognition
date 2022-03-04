@@ -1,0 +1,289 @@
+sgd，rate=0.001，epoch=180，像素200x200。
+num_train= 4080
+num_valid= 1360
+过程：
+epoch 1——loss: 1.3913 - acc: 0.2397 - val_loss: 1.3864 - val_acc: 0.2676
+epoch 2——loss: 1.3876 - acc: 0.2498 - val_loss: 1.3854 - val_acc: 0.2051
+epoch 3——loss: 1.3859 - acc: 0.2520 - val_loss: 1.3845 - val_acc: 0.2228
+epoch 4——loss: 1.3861 - acc: 0.2483 - val_loss: 1.3840 - val_acc: 0.2404
+epoch 5——loss: 1.3851 - acc: 0.2510 - val_loss: 1.3834 - val_acc: 0.2441
+epoch 6——loss: 1.3851 - acc: 0.2510 - val_loss: 1.3829 - val_acc: 0.2449
+epoch 7——loss: 1.3837 - acc: 0.2529 - val_loss: 1.3824 - val_acc: 0.2456
+epoch 8——loss: 1.3830 - acc: 0.2615 - val_loss: 1.3818 - val_acc: 0.2478
+epoch 9——loss: 1.3816 - acc: 0.2596 - val_loss: 1.3812 - val_acc: 0.2449
+epoch10——loss: 1.3821 - acc: 0.2667 - val_loss: 1.3807 - val_acc: 0.2603
+epoch11——loss: 1.3817 - acc: 0.2659 - val_loss: 1.3799 - val_acc: 0.2676
+epoch12——loss: 1.3807 - acc: 0.2711 - val_loss: 1.3791 - val_acc: 0.2647
+epoch13——loss: 1.3814 - acc: 0.2708 - val_loss: 1.3783 - val_acc: 0.2654
+epoch14——loss: 1.3785 - acc: 0.2885 - val_loss: 1.3771 - val_acc: 0.2750
+epoch15——loss: 1.3797 - acc: 0.2821 - val_loss: 1.3766 - val_acc: 0.2860
+epoch16——loss: 1.3774 - acc: 0.2926 - val_loss: 1.3754 - val_acc: 0.2838
+epoch17——loss: 1.3773 - acc: 0.2836 - val_loss: 1.3743 - val_acc: 0.2912
+epoch18——loss: 1.3767 - acc: 0.2792 - val_loss: 1.3735 - val_acc: 0.2993
+epoch19——loss: 1.3751 - acc: 0.2978 - val_loss: 1.3723 - val_acc: 0.2816
+epoch20——loss: 1.3741 - acc: 0.2963 - val_loss: 1.3710 - val_acc: 0.3074
+epoch21——loss: 1.3738 - acc: 0.2934 - val_loss: 1.3697 - val_acc: 0.3066
+epoch22——loss: 1.3698 - acc: 0.3056 - val_loss: 1.3677 - val_acc: 0.2949
+epoch23——loss: 1.3707 - acc: 0.2993 - val_loss: 1.3662 - val_acc: 0.3221
+epoch24——loss: 1.3701 - acc: 0.3150 - val_loss: 1.3646 - val_acc: 0.2971
+epoch25——loss: 1.3674 - acc: 0.3203 - val_loss: 1.3626 - val_acc: 0.3316
+epoch26——loss: 1.3670 - acc: 0.3120 - val_loss: 1.3613 - val_acc: 0.3360
+epoch27——loss: 1.3667 - acc: 0.3194 - val_loss: 1.3593 - val_acc: 0.3706
+epoch28——loss: 1.3618 - acc: 0.3456 - val_loss: 1.3567 - val_acc: 0.3654
+epoch29——loss: 1.3597 - acc: 0.3370 - val_loss: 1.3542 - val_acc: 0.4074
+epoch30——loss: 1.3597 - acc: 0.3429 - val_loss: 1.3515 - val_acc: 0.3956
+epoch31——loss: 1.3579 - acc: 0.3407 - val_loss: 1.3488 - val_acc: 0.4360
+epoch32——loss: 1.3530 - acc: 0.3569 - val_loss: 1.3446 - val_acc: 0.3831
+epoch33——loss: 1.3511 - acc: 0.3554 - val_loss: 1.3415 - val_acc: 0.4353
+epoch34——loss: 1.3529 - acc: 0.3431 - val_loss: 1.3386 - val_acc: 0.4610
+epoch35——loss: 1.3440 - acc: 0.3596 - val_loss: 1.3328 - val_acc: 0.4566
+epoch36——loss: 1.3353 - acc: 0.3711 - val_loss: 1.3270 - val_acc: 0.4529
+epoch37——loss: 1.3324 - acc: 0.3752 - val_loss: 1.3193 - val_acc: 0.4596
+epoch38——loss: 1.3282 - acc: 0.3699 - val_loss: 1.3119 - val_acc: 0.4132
+epoch39——loss: 1.3230 - acc: 0.3748 - val_loss: 1.3041 - val_acc: 0.4875
+epoch40——loss: 1.3149 - acc: 0.3934 - val_loss: 1.2935 - val_acc: 0.4779
+epoch41——loss: 1.3079 - acc: 0.3983 - val_loss: 1.2832 - val_acc: 0.5022
+epoch42——loss: 1.2970 - acc: 0.4066 - val_loss: 1.2698 - val_acc: 0.5037
+epoch43——loss: 1.2901 - acc: 0.4066 - val_loss: 1.2583 - val_acc: 0.4919
+epoch44——loss: 1.2779 - acc: 0.4206 - val_loss: 1.2445 - val_acc: 0.5279
+epoch45——loss: 1.2725 - acc: 0.4199 - val_loss: 1.2353 - val_acc: 0.4860
+epoch46——loss: 1.2614 - acc: 0.4255 - val_loss: 1.2168 - val_acc: 0.5184
+epoch47——loss: 1.2437 - acc: 0.4380 - val_loss: 1.2000 - val_acc: 0.5287
+epoch48——loss: 1.2314 - acc: 0.4404 - val_loss: 1.1847 - val_acc: 0.5279
+epoch49——loss: 1.2216 - acc: 0.4512 - val_loss: 1.1655 - val_acc: 0.5441
+epoch50——loss: 1.2113 - acc: 0.4468 - val_loss: 1.1561 - val_acc: 0.5272
+epoch51——loss: 1.1994 - acc: 0.4598 - val_loss: 1.1399 - val_acc: 0.5522
+epoch52——loss: 1.1906 - acc: 0.4576 - val_loss: 1.1369 - val_acc: 0.5449
+epoch53——loss: 1.1709 - acc: 0.4711 - val_loss: 1.1157 - val_acc: 0.5647
+epoch54——loss: 1.1750 - acc: 0.4733 - val_loss: 1.1118 - val_acc: 0.5559
+epoch55——loss: 1.1550 - acc: 0.4855 - val_loss: 1.0911 - val_acc: 0.5603
+epoch56——loss: 1.1481 - acc: 0.4833 - val_loss: 1.0770 - val_acc: 0.5618
+epoch57——loss: 1.1513 - acc: 0.4801 - val_loss: 1.0659 - val_acc: 0.5868
+epoch58——loss: 1.1268 - acc: 0.4963 - val_loss: 1.0496 - val_acc: 0.5772
+epoch59——loss: 1.1214 - acc: 0.4936 - val_loss: 1.0335 - val_acc: 0.5860
+epoch60——loss: 1.1206 - acc: 0.5032 - val_loss: 1.0335 - val_acc: 0.5956
+epoch61——loss: 1.0967 - acc: 0.5086 - val_loss: 1.0192 - val_acc: 0.5765
+epoch62——loss: 1.0918 - acc: 0.5275 - val_loss: 1.0118 - val_acc: 0.5985
+epoch63——loss: 1.0752 - acc: 0.5255 - val_loss: 1.0045 - val_acc: 0.5941
+epoch64——loss: 1.0711 - acc: 0.5353 - val_loss: 0.9810 - val_acc: 0.6088
+epoch65——loss: 1.0533 - acc: 0.5436 - val_loss: 0.9764 - val_acc: 0.5926
+epoch66——loss: 1.0558 - acc: 0.5397 - val_loss: 0.9610 - val_acc: 0.6162
+epoch67——loss: 1.0434 - acc: 0.5456 - val_loss: 0.9740 - val_acc: 0.5919
+epoch68——loss: 1.0414 - acc: 0.5409 - val_loss: 0.9430 - val_acc: 0.6176
+epoch69——loss: 1.0200 - acc: 0.5706 - val_loss: 0.9767 - val_acc: 0.5801
+epoch70——loss: 1.0373 - acc: 0.5419 - val_loss: 0.9316 - val_acc: 0.6191
+epoch71——loss: 1.0140 - acc: 0.5672 - val_loss: 0.9137 - val_acc: 0.6272
+epoch72——loss: 1.0042 - acc: 0.5694 - val_loss: 0.9067 - val_acc: 0.6397
+epoch73——loss: 0.9970 - acc: 0.5757 - val_loss: 0.8997 - val_acc: 0.6309
+epoch74——loss: 0.9829 - acc: 0.5770 - val_loss: 0.8983 - val_acc: 0.6301
+epoch75——loss: 0.9858 - acc: 0.5713 - val_loss: 0.8834 - val_acc: 0.6353
+epoch76——loss: 0.9780 - acc: 0.5782 - val_loss: 0.8767 - val_acc: 0.6331
+epoch77——loss: 0.9720 - acc: 0.5828 - val_loss: 0.8696 - val_acc: 0.6316
+epoch78——loss: 0.9535 - acc: 0.5998 - val_loss: 0.8710 - val_acc: 0.6294
+epoch79——loss: 0.9541 - acc: 0.5914 - val_loss: 0.8645 - val_acc: 0.6346
+epoch80——loss: 0.9567 - acc: 0.5912 - val_loss: 0.8694 - val_acc: 0.6272
+epoch81——loss: 0.9470 - acc: 0.5993 - val_loss: 0.8380 - val_acc: 0.6581
+epoch82——loss: 0.9413 - acc: 0.6010 - val_loss: 0.8368 - val_acc: 0.6493
+epoch83——loss: 0.9287 - acc: 0.5993 - val_loss: 0.8419 - val_acc: 0.6441
+epoch84——loss: 0.9298 - acc: 0.5880 - val_loss: 0.8557 - val_acc: 0.6287
+epoch85——loss: 0.9170 - acc: 0.6083 - val_loss: 0.8281 - val_acc: 0.6471
+epoch86——loss: 0.9114 - acc: 0.6086 - val_loss: 0.8373 - val_acc: 0.6412
+epoch87——loss: 0.9079 - acc: 0.6098 - val_loss: 0.8139 - val_acc: 0.6581
+epoch88——loss: 0.9083 - acc: 0.6061 - val_loss: 0.8135 - val_acc: 0.6537
+epoch89——loss: 0.8991 - acc: 0.6159 - val_loss: 0.8287 - val_acc: 0.6522
+epoch90——loss: 0.8882 - acc: 0.6142 - val_loss: 0.7954 - val_acc: 0.6654
+epoch91——loss: 0.8864 - acc: 0.6181 - val_loss: 0.7910 - val_acc: 0.6603
+epoch92——loss: 0.8789 - acc: 0.6292 - val_loss: 0.7878 - val_acc: 0.6904
+epoch93——loss: 0.8632 - acc: 0.6301 - val_loss: 0.7836 - val_acc: 0.6662
+epoch94——loss: 0.8730 - acc: 0.6270 - val_loss: 0.7948 - val_acc: 0.6529
+epoch95——loss: 0.8734 - acc: 0.6368 - val_loss: 0.7697 - val_acc: 0.6706
+epoch96——loss: 0.8620 - acc: 0.6353 - val_loss: 0.7788 - val_acc: 0.6676
+epoch97——loss: 0.8482 - acc: 0.6360 - val_loss: 0.7659 - val_acc: 0.6654
+epoch98——loss: 0.8449 - acc: 0.6461 - val_loss: 0.7591 - val_acc: 0.6912
+epoch99——loss: 0.8367 - acc: 0.6456 - val_loss: 0.7683 - val_acc: 0.6618
+epoch100——loss: 0.8362 - acc: 0.6539 - val_loss: 0.7629 - val_acc: 0.6493
+epoch101——loss: 0.8298 - acc: 0.6483 - val_loss: 0.7448 - val_acc: 0.6875
+epoch102——loss: 0.8311 - acc: 0.6488 - val_loss: 0.7447 - val_acc: 0.6669
+epoch103——loss: 0.8128 - acc: 0.6556 - val_loss: 0.7507 - val_acc: 0.6831
+epoch104——loss: 0.8150 - acc: 0.6632 - val_loss: 0.7303 - val_acc: 0.6801
+epoch105——loss: 0.8025 - acc: 0.6659 - val_loss: 0.7570 - val_acc: 0.6618
+epoch106——loss: 0.8100 - acc: 0.6542 - val_loss: 0.7359 - val_acc: 0.6934
+epoch107——loss: 0.8112 - acc: 0.6630 - val_loss: 0.7240 - val_acc: 0.6757
+epoch108——loss: 0.8124 - acc: 0.6449 - val_loss: 0.7233 - val_acc: 0.6890
+epoch109——loss: 0.7941 - acc: 0.6591 - val_loss: 0.7193 - val_acc: 0.6824
+epoch110——loss: 0.7887 - acc: 0.6635 - val_loss: 0.7198 - val_acc: 0.6816
+epoch111——loss: 0.8081 - acc: 0.6537 - val_loss: 0.7259 - val_acc: 0.6809
+epoch112——loss: 0.7949 - acc: 0.6657 - val_loss: 0.7104 - val_acc: 0.6934
+epoch113——loss: 0.7771 - acc: 0.6745 - val_loss: 0.7070 - val_acc: 0.6904
+epoch114——loss: 0.7751 - acc: 0.6684 - val_loss: 0.7227 - val_acc: 0.6765
+epoch115——loss: 0.7619 - acc: 0.6730 - val_loss: 0.6939 - val_acc: 0.6875
+epoch116——loss: 0.7745 - acc: 0.6721 - val_loss: 0.7000 - val_acc: 0.6897
+epoch117——loss: 0.7573 - acc: 0.6850 - val_loss: 0.6804 - val_acc: 0.7118
+epoch118——loss: 0.7549 - acc: 0.6750 - val_loss: 0.7288 - val_acc: 0.6831
+epoch119——loss: 0.7601 - acc: 0.6794 - val_loss: 0.6906 - val_acc: 0.6801
+epoch120——loss: 0.7419 - acc: 0.6904 - val_loss: 0.6791 - val_acc: 0.6978
+训练花费的时间：4.274153h!
+预测1张图片花费的时间：0.012294s!
+
+第二次训练，在epoch=120的基础上，增加60个epoch
+epoch121——loss: 0.7528 - acc: 0.6863 - val_loss: 0.6805 - val_acc: 0.6949
+epoch122——loss: 0.7556 - acc: 0.6775 - val_loss: 0.6700 - val_acc: 0.7118
+epoch123——loss: 0.7462 - acc: 0.6855 - val_loss: 0.6631 - val_acc: 0.7257
+epoch124——loss: 0.7449 - acc: 0.6833 - val_loss: 0.6786 - val_acc: 0.6978
+epoch125——loss: 0.7307 - acc: 0.6863 - val_loss: 0.6689 - val_acc: 0.7015
+epoch126——loss: 0.7381 - acc: 0.6775 - val_loss: 0.6556 - val_acc: 0.7176
+epoch127——loss: 0.7278 - acc: 0.6953 - val_loss: 0.7241 - val_acc: 0.6846
+epoch128——loss: 0.7296 - acc: 0.6941 - val_loss: 0.6778 - val_acc: 0.7000
+epoch129——loss: 0.7206 - acc: 0.6963 - val_loss: 0.6406 - val_acc: 0.7390
+epoch130——loss: 0.7142 - acc: 0.6980 - val_loss: 0.6480 - val_acc: 0.7368
+epoch131——loss: 0.7113 - acc: 0.7025 - val_loss: 0.6420 - val_acc: 0.7353
+epoch132——loss: 0.7047 - acc: 0.6956 - val_loss: 0.6407 - val_acc: 0.7382
+epoch133——loss: 0.7030 - acc: 0.7071 - val_loss: 0.6326 - val_acc: 0.7353
+epoch134——loss: 0.6885 - acc: 0.7115 - val_loss: 0.6296 - val_acc: 0.7390
+epoch135——loss: 0.7034 - acc: 0.7074 - val_loss: 0.6284 - val_acc: 0.7529
+epoch136——loss: 0.7022 - acc: 0.7118 - val_loss: 0.6324 - val_acc: 0.7221
+epoch137——loss: 0.6807 - acc: 0.7132 - val_loss: 0.6527 - val_acc: 0.7426
+epoch138——loss: 0.6942 - acc: 0.7083 - val_loss: 0.6372 - val_acc: 0.7287
+epoch139——loss: 0.6856 - acc: 0.7118 - val_loss: 0.6504 - val_acc: 0.7279
+epoch140——loss: 0.6770 - acc: 0.7216 - val_loss: 0.6197 - val_acc: 0.7507
+epoch141——loss: 0.6836 - acc: 0.7103 - val_loss: 0.6262 - val_acc: 0.7346
+epoch142——loss: 0.6741 - acc: 0.7172 - val_loss: 0.6245 - val_acc: 0.7132
+epoch143——loss: 0.6708 - acc: 0.7191 - val_loss: 0.5976 - val_acc: 0.7588
+epoch144——loss: 0.6591 - acc: 0.7252 - val_loss: 0.6221 - val_acc: 0.7162
+epoch145——loss: 0.6658 - acc: 0.7252 - val_loss: 0.6081 - val_acc: 0.7426
+epoch146—— loss: 0.6543 - acc: 0.7282 - val_loss: 0.6073 - val_acc: 0.7522
+epoch147——loss: 0.6553 - acc: 0.7240 - val_loss: 0.5948 - val_acc: 0.7618
+epoch148——loss: 0.6530 - acc: 0.7348 - val_loss: 0.6289 - val_acc: 0.7257
+epoch149——loss: 0.6589 - acc: 0.7343 - val_loss: 0.6275 - val_acc: 0.7397
+epoch150——loss: 0.6431 - acc: 0.7368 - val_loss: 0.6176 - val_acc: 0.7272
+epoch151——loss: 0.6355 - acc: 0.7397 - val_loss: 0.6064 - val_acc: 0.7463
+epoch152——loss: 0.6460 - acc: 0.7368 - val_loss: 0.5775 - val_acc: 0.7544
+epoch153——loss: 0.6396 - acc: 0.7417 - val_loss: 0.5829 - val_acc: 0.7537
+epoch154——loss: 0.6288 - acc: 0.7517 - val_loss: 0.5782 - val_acc: 0.7691
+epoch155——loss: 0.6193 - acc: 0.7400 - val_loss: 0.5771 - val_acc: 0.7493
+epoch156——loss: 0.6298 - acc: 0.7368 - val_loss: 0.5967 - val_acc: 0.7463
+epoch157——loss: 0.6222 - acc: 0.7397 - val_loss: 0.5699 - val_acc: 0.7640
+epoch158——loss: 0.6232 - acc: 0.7471 - val_loss: 0.5676 - val_acc: 0.7544
+epoch159——loss: 0.6148 - acc: 0.7500 - val_loss: 0.5752 - val_acc: 0.7581
+epoch160——loss: 0.6026 - acc: 0.7458 - val_loss: 0.5935 - val_acc: 0.7493
+epoch161——loss: 0.6132 - acc: 0.7439 - val_loss: 0.5593 - val_acc: 0.7846
+epoch162——loss: 0.6105 - acc: 0.7485 - val_loss: 0.5608 - val_acc: 0.7853
+epoch163——loss: 0.6143 - acc: 0.7498 - val_loss: 0.5729 - val_acc: 0.7610
+epoch164——loss: 0.6222 - acc: 0.7397 - val_loss: 0.5588 - val_acc: 0.7713
+epoch165——loss: 0.6015 - acc: 0.7480 - val_loss: 0.5473 - val_acc: 0.7757
+epoch166——loss: 0.6069 - acc: 0.7493 - val_loss: 0.5557 - val_acc: 0.7669
+epoch167——loss: 0.5839 - acc: 0.7507 - val_loss: 0.5469 - val_acc: 0.7640
+epoch168——loss: 0.5794 - acc: 0.7620 - val_loss: 0.5389 - val_acc: 0.7897
+epoch169——loss: 0.5869 - acc: 0.7574 - val_loss: 0.6465 - val_acc: 0.7132
+epoch170——loss: 0.5899 - acc: 0.7586 - val_loss: 0.5321 - val_acc: 0.7890
+epoch171——loss: 0.5862 - acc: 0.7517 - val_loss: 0.5412 - val_acc: 0.8029
+epoch172——loss: 0.5800 - acc: 0.7659 - val_loss: 0.5676 - val_acc: 0.7434
+epoch173——loss: 0.5813 - acc: 0.7645 - val_loss: 0.5308 - val_acc: 0.7882
+epoch174——loss: 0.5589 - acc: 0.7694 - val_loss: 0.5248 - val_acc: 0.7897
+epoch175——loss: 0.5853 - acc: 0.7618 - val_loss: 0.5529 - val_acc: 0.7662
+epoch176——loss: 0.5580 - acc: 0.7701 - val_loss: 0.5460 - val_acc: 0.7699
+epoch177——loss: 0.5631 - acc: 0.7703 - val_loss: 0.5148 - val_acc: 0.7956
+epoch178——loss: 0.5608 - acc: 0.7804 - val_loss: 0.5451 - val_acc: 0.7779
+epoch179——loss: 0.5627 - acc: 0.7706 - val_loss: 0.5197 - val_acc: 0.7846
+epoch180——loss: 0.5656 - acc: 0.7740 - val_loss: 0.5065 - val_acc: 0.7941
+预计费时：3.2h
+
+
+epoch181——loss: 0.5374 - acc: 0.7797 - val_loss: 0.5115 - val_acc: 0.7904
+epoch182——loss: 0.5497 - acc: 0.7819 - val_loss: 0.6470 - val_acc: 0.7228
+epoch183——loss: 0.5515 - acc: 0.7846 - val_loss: 0.5171 - val_acc: 0.7897
+epoch184——loss: 0.5374 - acc: 0.7828 - val_loss: 0.5139 - val_acc: 0.7912
+epoch185——loss: 0.5427 - acc: 0.7841 - val_loss: 0.5044 - val_acc: 0.7971
+epoch186——loss: 0.5423 - acc: 0.7860 - val_loss: 0.5067 - val_acc: 0.7926
+epoch187——loss: 0.5384 - acc: 0.7804 - val_loss: 0.5232 - val_acc: 0.7824
+epoch188——loss: 0.5359 - acc: 0.7900 - val_loss: 0.5438 - val_acc: 0.7449
+epoch189——loss: 0.5262 - acc: 0.7900 - val_loss: 0.5034 - val_acc: 0.8110
+epoch190——loss: 0.5330 - acc: 0.7833 - val_loss: 0.5058 - val_acc: 0.7904
+epoch191——loss: 0.5336 - acc: 0.7833 - val_loss: 0.4896 - val_acc: 0.8074
+epoch192——loss: 0.5285 - acc: 0.7885 - val_loss: 0.4925 - val_acc: 0.8051
+epoch193——loss: 0.5237 - acc: 0.7983 - val_loss: 0.4849 - val_acc: 0.8118
+epoch194——loss: 0.5190 - acc: 0.7909 - val_loss: 0.4960 - val_acc: 0.8154
+epoch195——loss: 0.5116 - acc: 0.7914 - val_loss: 0.4766 - val_acc: 0.8169
+epoch196——loss: 0.5168 - acc: 0.7914 - val_loss: 0.4676 - val_acc: 0.8243
+epoch197——loss: 0.5166 - acc: 0.7934 - val_loss: 0.4712 - val_acc: 0.8213
+epoch198——loss: 0.5111 - acc: 0.8002 - val_loss: 0.4782 - val_acc: 0.8272
+epoch199——loss: 0.5072 - acc: 0.7966 - val_loss: 0.5144 - val_acc: 0.7684
+epoch200——loss: 0.5008 - acc: 0.8083 - val_loss: 0.4729 - val_acc: 0.8199
+epoch201——loss: 0.4994 - acc: 0.7929 - val_loss: 0.4793 - val_acc: 0.8015
+epoch202——loss: 0.5175 - acc: 0.7929 - val_loss: 0.5139 - val_acc: 0.7904
+epoch203——loss: 0.4786 - acc: 0.8044 - val_loss: 0.4972 - val_acc: 0.7816
+epoch204——loss: 0.4848 - acc: 0.8066 - val_loss: 0.4657 - val_acc: 0.8206
+epoch205——loss: 0.4823 - acc: 0.8125 - val_loss: 0.4860 - val_acc: 0.7985
+epoch206——loss: 0.4953 - acc: 0.8069 - val_loss: 0.4707 - val_acc: 0.8074
+epoch207——loss: 0.4835 - acc: 0.8074 - val_loss: 0.4471 - val_acc: 0.8265
+epoch208——loss: 0.4763 - acc: 0.8127 - val_loss: 0.4887 - val_acc: 0.8029
+epoch209——loss: 0.4735 - acc: 0.8081 - val_loss: 0.4631 - val_acc: 0.8169
+epoch210——loss: 0.4855 - acc: 0.8074 - val_loss: 0.4477 - val_acc: 0.8331
+epoch211——loss: 0.4814 - acc: 0.8061 - val_loss: 0.4561 - val_acc: 0.8228
+epoch212——loss: 0.4592 - acc: 0.8167 - val_loss: 0.4739 - val_acc: 0.8132
+epoch213——loss: 0.4541 - acc: 0.8216 - val_loss: 0.4607 - val_acc: 0.8059
+epoch214——loss: 0.4711 - acc: 0.8071 - val_loss: 0.4533 - val_acc: 0.8368
+epoch215——loss: 0.4538 - acc: 0.8211 - val_loss: 0.4884 - val_acc: 0.7978
+epoch216——loss: 0.4572 - acc: 0.8189 - val_loss: 0.4397 - val_acc: 0.8346
+epoch217——loss: 0.4716 - acc: 0.8078 - val_loss: 0.5440 - val_acc: 0.7949
+epoch218——loss: 0.4470 - acc: 0.8252 - val_loss: 0.4463 - val_acc: 0.8294
+epoch219——loss: 0.4585 - acc: 0.8194 - val_loss: 0.4734 - val_acc: 0.8221
+epoch220——loss: 0.4536 - acc: 0.8189 - val_loss: 0.4824 - val_acc: 0.8074
+epoch221——loss: 0.4547 - acc: 0.8176 - val_loss: 0.4796 - val_acc: 0.8000
+epoch222——loss: 0.4583 - acc: 0.8297 - val_loss: 0.4496 - val_acc: 0.8199
+epoch223——loss: 0.4487 - acc: 0.8265 - val_loss: 0.4314 - val_acc: 0.8309
+epoch224——loss: 0.4342 - acc: 0.8277 - val_loss: 0.4276 - val_acc: 0.8434
+epoch225——loss: 0.4367 - acc: 0.8243 - val_loss: 0.4440 - val_acc: 0.8176
+epoch226——loss: 0.4370 - acc: 0.8324 - val_loss: 0.4493 - val_acc: 0.8265
+epoch227——loss: 0.4452 - acc: 0.8279 - val_loss: 0.4357 - val_acc: 0.8221
+epoch228——loss: 0.4263 - acc: 0.8395 - val_loss: 0.4340 - val_acc: 0.8272
+epoch229——loss: 0.4280 - acc: 0.8360 - val_loss: 0.4266 - val_acc: 0.8419
+epoch230——loss: 0.4256 - acc: 0.8348 - val_loss: 0.4293 - val_acc: 0.8338
+epoch231——loss: 0.4166 - acc: 0.8360 - val_loss: 0.4264 - val_acc: 0.8397
+epoch232——loss: 0.4205 - acc: 0.8363 - val_loss: 0.4478 - val_acc: 0.8081
+epoch233——loss: 0.4240 - acc: 0.8341 - val_loss: 0.4395 - val_acc: 0.8213
+epoch234——loss: 0.4198 - acc: 0.8353 - val_loss: 0.4245 - val_acc: 0.8419
+epoch235——loss: 0.4298 - acc: 0.8294 - val_loss: 0.4755 - val_acc: 0.8103
+epoch236——loss: 0.4204 - acc: 0.8370 - val_loss: 0.4354 - val_acc: 0.8294
+epoch237——loss: 0.4144 - acc: 0.8382 - val_loss: 0.4270 - val_acc: 0.8272
+epoch238——loss: 0.4283 - acc: 0.8282 - val_loss: 0.4086 - val_acc: 0.8390
+epoch239——loss: 0.4037 - acc: 0.8446 - val_loss: 0.4319 - val_acc: 0.8287
+epoch240——loss: 0.4060 - acc: 0.8370 - val_loss: 0.4182 - val_acc: 0.8309
+epoch241——loss: 0.4004 - acc: 0.8461 - val_loss: 0.4146 - val_acc: 0.8434
+epoch242——loss: 0.3950 - acc: 0.8461 - val_loss: 0.4303 - val_acc: 0.8309
+epoch243——loss: 0.4180 - acc: 0.8380 - val_loss: 0.4439 - val_acc: 0.8272
+epoch244——loss: 0.4019 - acc: 0.8473 - val_loss: 0.4141 - val_acc: 0.8419
+epoch245——loss: 0.4020 - acc: 0.8400 - val_loss: 0.4154 - val_acc: 0.8375
+epoch246——loss: 0.3933 - acc: 0.8453 - val_loss: 0.4134 - val_acc: 0.8324
+epoch247——loss: 0.3992 - acc: 0.8505 - val_loss: 0.4178 - val_acc: 0.8331
+epoch248——loss: 0.3950 - acc: 0.8434 - val_loss: 0.4245 - val_acc: 0.8265
+epoch249——loss: 0.3974 - acc: 0.8424 - val_loss: 0.4086 - val_acc: 0.8338
+epoch250——loss: 0.4044 - acc: 0.8483 - val_loss: 0.4184 - val_acc: 0.8390
+epoch251——loss: 0.3749 - acc: 0.8554 - val_loss: 0.3979 - val_acc: 0.8463
+epoch252——loss: 0.3738 - acc: 0.8510 - val_loss: 0.4054 - val_acc: 0.8419
+epoch253——loss: 0.3729 - acc: 0.8625 - val_loss: 0.3990 - val_acc: 0.8360
+epoch254——loss: 0.3780 - acc: 0.8510 - val_loss: 0.4404 - val_acc: 0.8265
+epoch255——loss: 0.3770 - acc: 0.8569 - val_loss: 0.4049 - val_acc: 0.8375
+epoch256——loss: 0.3677 - acc: 0.8613 - val_loss: 0.4108 - val_acc: 0.8360
+epoch257——loss: 0.3640 - acc: 0.8566 - val_loss: 0.3963 - val_acc: 0.8478
+epoch258——loss: 0.3716 - acc: 0.8645 - val_loss: 0.4069 - val_acc: 0.8463
+epoch259——loss: 0.3713 - acc: 0.8618 - val_loss: 0.4014 - val_acc: 0.8500
+epoch260——loss: 0.3702 - acc: 0.8566 - val_loss: 0.4058 - val_acc: 0.8382
+epoch261——loss: 0.3676 - acc: 0.8613 - val_loss: 0.4097 - val_acc: 0.8360
+epoch262——loss: 0.3614 - acc: 0.8547 - val_loss: 0.4338 - val_acc: 0.8390
+epoch263——loss: 0.3652 - acc: 0.8559 - val_loss: 0.4010 - val_acc: 0.8368
+epoch264——loss: 0.3561 - acc: 0.8650 - val_loss: 0.3969 - val_acc: 0.8515
+epoch265——loss: 0.3737 - acc: 0.8596 - val_loss: 0.3961 - val_acc: 0.8449
+epoch266——loss: 0.3484 - acc: 0.8637 - val_loss: 0.4054 - val_acc: 0.8397
+epoch267——loss: 0.3603 - acc: 0.8630 - val_loss: 0.4245 - val_acc: 0.8272
+epoch268——loss: 0.3456 - acc: 0.8623 - val_loss: 0.4025 - val_acc: 0.8382
+epoch269——loss: 0.3546 - acc: 0.8679 - val_loss: 0.3834 - val_acc: 0.8529
+epoch270——loss: 0.3443 - acc: 0.8664 - val_loss: 0.4202 - val_acc: 0.8346
+训练花费的时间：4.745173h!
+预测1张图片花费的时间：0.014802s!
+
+
+再次增加60个epoch，费时3.137440h!
+再增加90个epoch，费时4.673276h!
+
+0.014240s!预测速率
